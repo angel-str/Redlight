@@ -8,11 +8,11 @@ import javax.swing.JPanel;
 
 public class Test extends JPanel {
 	
-	public void paintComponents(Graphics g) {
-		super.paintComponents(g);
+	public void paintComponent(Graphics g) {
+		super.paintComponent(g);
 		
 		g.setColor(Color.RED);
-		g.drawRect(0, 0, 100, 200);
+		g.drawOval(150, 150, 100, 100);
 		
 	}
 	
